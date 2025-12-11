@@ -2,8 +2,7 @@ import axios from 'axios';
 
 // FINAL, CONFIRMED LIVE URL for the Render Backend
 // The local '/api' prefix has been removed from the backend, so the base URL is just the domain.
-const API_URL = 'https://triageatdawn.onrender.com'; 
-
+const API_URL = 'http://localhost:5000/api';
 export const submitTriage = async (formData: any) => {
   // POST request to the Triage endpoint
   const response = await axios.post(`${API_URL}/triage`, formData);
