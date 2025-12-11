@@ -18,7 +18,7 @@ app.use(express.json());
 
 console.log("5. Middleware setup complete");
 
-app.use('/api', router);
+app.use(router);
 
 console.log("6. Routes registered");
 
