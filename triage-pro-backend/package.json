@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/app.js",
-    "dev": "nodemon src/app.ts"
+    "dev": "nodemon src/app.ts",
+    "seed-db": "npx ts-node dist/seed-remote.js"
   },
   "keywords": [],
   "author": "",
